@@ -14,5 +14,6 @@ while (i < 6){
   if (numero % 2 !== 0)
     array.push(numero);
     console.log(array);
+  // condizione di uscita  
   i++;
 }
