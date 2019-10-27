@@ -7,6 +7,10 @@ console.log('num1 = ' + num1);
 
 // num1 = num1.replace(',','.');
 
+// if (num1 == 'NaN'){
+//   num1 = parseFloat(prompt('Non è un numero! Inserisci un numero'));
+// }
+
 var num2 = parseFloat(prompt('Scrivi un altro numero'));
 console.log('num2 = ' + num2);
 
