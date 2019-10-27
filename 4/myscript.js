@@ -16,6 +16,8 @@ for(i = 0; i < lista.length; i++){
 
 if(nomeOk === true){
   console.log('Puoi partecipare alla festa');
+  document.getElementById('mex') = 'Puoi partecipare alla festa';
 } else {
   console.log('Stai a casa');
+  document.getElementById('mex') = 'Stai a casa';
 }
