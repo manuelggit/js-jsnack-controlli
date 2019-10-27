@@ -19,3 +19,4 @@ while(i < 5) {
 }
 
 console.log(somma);
+document.getElementById('id').innerHTML = 'la somma è = ' + somma;
