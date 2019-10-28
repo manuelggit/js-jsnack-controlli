@@ -11,9 +11,24 @@ while (i < 6){
   var numero = parseInt(prompt('Inserisci un numero'));
   console.log(numero);
   // se il numero inserito è dispari popolo l'array
-  if (numero % 2 !== 0)
+  if (numero % 2 !== 0) {
     array.push(numero);
     console.log(array);
-  // condizione di uscita  
+    // document.getElementById('mioid').innerHTML = array;
+    }
+    // document.getElementById('mioid').innerHTML = array;
+    // condizione di uscita
   i++;
 }
+
+document.getElementById('mioid').innerHTML = array;
+
+// if (dispari === true) {
+//   array.push(numero);
+//   console.log(array);
+// } else {
+//   console.log(array);
+// }
+
+
+// console.log(array);
